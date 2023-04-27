@@ -35,6 +35,9 @@ span {
   font-size: 12.6rem;
   line-height: 14.7rem;
 }
+.disabled {
+  pointer-events: none;
+}
 
 .timerAndControls {
   align-self: center;
@@ -68,7 +71,6 @@ svg:hover {
   cursor: pointer;
 }
 
-.selected{
+.selected {
   background: var(--card-secondary-color);
-
 }
